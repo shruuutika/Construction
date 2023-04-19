@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    margin-left: 5rem;
+}
+
+#hero h1{
+    font-size: 5rem;
+}
+#hero .btn{
+    font-weight: 700;
+    color: white; 
+    background-color: transparent; 
+    border-color:white;
+    padding: 1rem 2rem;
+    border-width: 3px;
+}
+#hero .btn1{
+    font-weight: 700;
+    color: black; 
+    background-color: transparent; 
+    border-color:black;
+    padding: 1rem 2rem;
+    border-width: 3px;
+}
+.back{
+    background-image: url('./Images/mining-excavator-g3a3a309aa_1920.jpg');
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.back::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+.z{
+    z-index: 2;
+    position: absolute;
+}
+.card1{
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    height: 60vh;
+    border-radius: 1rem;
+}
+.box{
+    background-image: url('./Images/project-01-700x1000.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 55vh;
+    display: flex;
+    align-items: end;
+}
+.box::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(31, 50, 34, 0.464);
+}
+
+.z-1{
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+.box1{
+    background-image: url('./Images/project-02-700x1000.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 55vh;
+    display: flex;
+    align-items: end;
+}
+.box1::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(31, 50, 34, 0.473);
+}
+
+.z-1{
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+.box2{
+    background-image: url('./Images/project-03-700x1000.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 55vh;
+    display: flex;
+    align-items: end;
+}
+.box2::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(31, 50, 34, 0.473);
+}
+
+.z-1{
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+.box3{
+    background-image: url('./Images/project-004-700x1000.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 55vh;
+    display: flex;
+    align-items: end;
+}
+.box3::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(31, 50, 34, 0.473);
+}
+
+.z-1{
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+.img2{
+    background-image: url('./Images/avatar-07.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 30vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.img2::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(31, 50, 34, 0.473);
+}
+.img2:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.z-1{
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+.img3{
+    background-image: url('./Images/avatar-06.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 30vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.img3::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(31, 50, 34, 0.473);
+}
+.img3:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.z-1{
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+#footer{
+    background-color: black;
+    margin-top: 2rem;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+@media screen and (max-width:768px){
+    .middle{
+        display: none;
+    }
+    #about .dismiss{
+        display: none;
+    }
+    #about .dismiss2{
+        display: none;
+    }
+    .container .top p{
+        display: none;
+    }
+}
